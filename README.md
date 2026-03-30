@@ -64,3 +64,72 @@ A **production-ready**, **AI-powered** approval workflow system built in Microso
 - **Calendar Integration** - Outlook/Google Calendar sync
 
 ## 🏗️ Architecture
+┌─────────────────────────────────────────────────────────────┐
+│ USER INTERFACE │
+│ List │ Card │ Dashboard │ QR Scanner │ Batch │ Mobile │
+├─────────────────────────────────────────────────────────────┤
+│ BUSINESS LOGIC LAYER │
+│ Approval │ AI │ Blockchain │ Smart │ Analytics │ Voice │
+├─────────────────────────────────────────────────────────────┤
+│ DATA LAYER │
+│ Request │ History │ Rules │ AI │ Blockchain │ Attachments │
+├─────────────────────────────────────────────────────────────┤
+│ INTEGRATION LAYER │
+│ REST API │ Mobile API │ Calendar │ WebSocket │
+└─────────────────────────────────────────────────────────────┘
+
+ApprovalEngine/
+├── src/
+│ ├── Enums/ (3 files) - Status, Type, Department
+│ ├── Tables/ (10 files) - All data tables
+│ ├── Codeunits/ (9 files) - Business logic
+│ ├── Pages/ (6 files) - User interfaces
+│ └── APIs/ (2 files) - REST endpoints
+├── app.json - Extension manifest
+└── README.md - Documentation
+
+
+## 🚀 Deployment
+
+### Prerequisites
+- Microsoft Dynamics 365 Business Central
+- Visual Studio Code with AL Extension
+
+### Steps
+1. Clone this repository
+2. Open in VS Code
+3. Press `F5` to publish to sandbox
+4. Search "Approval Request List" in Business Central
+
+## 🔧 Key Codeunits
+
+| Codeunit | Purpose |
+|----------|---------|
+| `ApprovalEngine` | Core submit/approve/reject logic |
+| `AIPredictor` | Machine learning prediction |
+| `BlockchainAudit` | SHA-256 hashing and verification |
+| `SmartContractEngine` | Auto-execute actions |
+| `VoiceAssistant` | Natural language processing |
+| `WebSocketNotifier` | Real-time push notifications |
+| `AnalyticsEngine` | Metrics and forecasting |
+
+## 📈 What This Proves
+
+- ✅ Mastery of **AL Language** for Dynamics 365
+- ✅ Understanding of **enterprise workflow systems**
+- ✅ **AI/ML integration** concepts
+- ✅ **Blockchain & cryptography** principles
+- ✅ **Smart contract** automation
+- ✅ **Voice recognition** integration
+- ✅ **Mobile-ready** development
+- ✅ **Production-quality** code with error handling
+
+## 📝 License
+MIT
+
+## 👤 Author
+Edufel45
+
+---
+
+⭐ **Star this repository**
